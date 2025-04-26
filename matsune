@@ -1997,8 +1997,8 @@ spawn(function()
                             BillboardGui.StudsOffset = Vector3.new(0, 2.5, 0)
 
                             TextLabel.Parent = BillboardGui
-                            TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-                            TextLabel.BackgroundTransparency = 1.000
+                            TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- màu đen
+                            TextLabel.BackgroundTransparency = 0 -- không còn trong suốt
                             TextLabel.Size = UDim2.new(0, 200, 0, 50)
                             TextLabel.Font = Enum.Font.GothamBold
                             TextLabel.TextColor3 = Color3.fromRGB(7, 236, 240)
@@ -4031,15 +4031,15 @@ UICorner.Parent = ImageButton
 
 				TextButton.Name = ""
 				TextButton.Parent = MainToggle
-				TextButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-				TextButton.BackgroundTransparency = 1.000
+				TextButton.BackgroundColor3 = Color3.fromRGB(0, 128, 255) -- xanh dương
+				TextButton.BackgroundTransparency = 0 -- để nó hiện màu
 				TextButton.BorderSizePixel = 0
 				TextButton.Size = UDim2.new(1, 0, 1, 0)
 				TextButton.ZIndex = 16
 				TextButton.AutoButtonColor = false
 				TextButton.Font = Enum.Font.Gotham
 				TextButton.Text = ""
-				TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+				TextButton.TextColor3 = Color3.fromRGB(255, 255, 255) -- màu chữ trắng (cho dễ nhìn)
 				TextButton.TextSize = 14.000
 
 				TextButton.MouseButton1Click:Connect(
