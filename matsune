@@ -4031,7 +4031,7 @@ UICorner.Parent = ImageButton
 
 				TextButton.Name = ""
 				TextButton.Parent = MainToggle
-				TextButton.BackgroundColor3 = Color3.fromRGB(0, 128, 255) -- xanh dương
+				TextButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50) -- xanh dương
 				TextButton.BackgroundTransparency = 0 -- để nó hiện màu
 				TextButton.BorderSizePixel = 0
 				TextButton.Size = UDim2.new(1, 0, 1, 0)
